@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-import cv2 
+
 drawing = False # True is mouse down
 mode = True # True, draw rectangle, press 'x' to switch to curve
 ix,iy = -1,-1

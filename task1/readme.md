@@ -6,6 +6,8 @@
 such as displaying its dimensions, draw on it, rotate, translate etc.
 ▪ An application with a GUI is recommended.
 
-Since opencv does not provide an option for buttons, I found a library called cvui.
-It is close to the native GUI function of opencv, but provides a more friendly interface design.
+To start, enter the relative path of the image on the command line.Then through the button it can display dimensions, rotate, translate etc.Press ESC to exit.
+
+Since opencv does not provide an option for buttons, I found a library called cvui.It is close to the native GUI function of opencv, but provides a more friendly interface design.
+
 But the call interface of the mouse still uses its own, so it is placed in draw.py separately.

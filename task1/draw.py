@@ -1,10 +1,10 @@
 import cv2
 import numpy as np
 import cv2 
-drawing = False # 如果 True 是鼠标按下
-mode = True # 如果 True，画矩形，按下‘x’切换到曲线
+drawing = False # True is mouse down
+mode = True # True, draw rectangle, press 'x' to switch to curve
 ix,iy = -1,-1
-# 鼠标回调函数
+# mouse callback function
 def draw_circle(event,x,y,flags,param):
     global ix,iy,drawing,mode
     if event == cv2.EVENT_LBUTTONDOWN:  

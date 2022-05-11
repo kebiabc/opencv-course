@@ -1,6 +1,7 @@
 # opencv-course
 opencv-course
- TASK1
+
+TASK1
  
  Create an application that performs all the tasks provided
 ▪ The program will ask the user to provide an image.
